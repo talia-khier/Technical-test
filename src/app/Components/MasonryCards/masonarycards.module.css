@@ -23,8 +23,11 @@
   width: 100%;
 }
 
+.masonryCardColumn:first-of-type {
+  padding-right: 16px;
+}
+
 .masonryCardColumn {
-  padding: 0px 16px;
   width: 100%;
 }
 

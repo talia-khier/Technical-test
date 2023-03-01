@@ -2,14 +2,6 @@ import React from 'react';
 
 import styles from './sidebar.module.css';
 
-const iconsArray: string[] = [
-  'chart',
-  'call',
-  'convertshape',
-  'diagram',
-  'setting',
-];
-
 const Sidebar = () => {
   return (
     <div className={styles.sidebar}>

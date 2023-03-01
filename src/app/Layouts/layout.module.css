@@ -21,3 +21,9 @@
   flex-direction: column;
   gap: 33px;
 }
+
+@media only screen and (max-width: 900px) {
+  .content {
+    flex-direction: column-reverse;
+  }
+}

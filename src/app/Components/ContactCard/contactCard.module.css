@@ -1,0 +1,85 @@
+.wrapper {
+  display: flex;
+  gap: 19px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  padding: 36px 30px;
+}
+.wrapper > div {
+  width: 50%;
+}
+
+h3 {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+
+  color: #000000;
+}
+p {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #000000;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper > form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+button {
+  background: #7ebcd3;
+  border-radius: 12px;
+  padding: 21px 0px;
+  width: 100%;
+  border: unset;
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+input {
+  background: #d9d9d9;
+  border-radius: 12px;
+  padding: 21px 0 21px 21px;
+  border: unset;
+}
+
+input:focus-visible {
+  outline-offset: unset;
+  outline: unset;
+}
+
+input::placeholder {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+@media only screen and (max-width: 900px) {
+  .wrapper {
+    display: none;
+  }
+}

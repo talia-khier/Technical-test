@@ -1,15 +1,22 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import ContentCard from './Components/ContactCard';
+import FixedCard from './Components/FixedCard';
+import MasonryCard from './Components/MasonryCards';
+import Layout from './Layouts';
 
 export function App() {
   return (
-    <>
-      <NxWelcome title="test" />
+    <Layout>
+      <div className={styles.masonryWrapper}>
+        <MasonryCard />
+      </div>
 
-      <div />
-    </>
+      <div className={styles.fixedCards}>
+        <FixedCard />
+        <ContentCard />
+      </div>
+    </Layout>
   );
 }
 

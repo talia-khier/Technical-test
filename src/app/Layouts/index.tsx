@@ -11,14 +11,11 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     setTheme(
       localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light'
     );
-
-    return () => {
-      localStorage.setItem('theme', theme);
-    };
   }, []);
 
   const switchTheme = () => {
     setTheme((oldTheme) => (oldTheme === 'light' ? 'dark' : 'light'));
+    localStorage.setItem('theme', theme === 'light' ? 'dark' : 'light');
   };
 
   return (

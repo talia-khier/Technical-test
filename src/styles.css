@@ -100,6 +100,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  font-family: 'Noto Serif', serif;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -136,4 +137,48 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+button {
+  background: #7ebcd3;
+  border-radius: 12px;
+  padding: 21px 0px;
+  width: 100%;
+  border: unset;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+input {
+  background: #d9d9d9;
+  border-radius: 12px;
+  padding: 21px 0 21px 21px;
+  border: unset;
+}
+
+input:focus-visible {
+  outline-offset: unset;
+  outline: unset;
+}
+
+input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+
+  color: #000000;
 }

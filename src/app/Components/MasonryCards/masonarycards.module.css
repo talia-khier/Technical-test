@@ -15,11 +15,8 @@
 }
 
 .masonryCardRow {
-  display: -ms-flexbox; /* IE10 */
   display: flex;
-  /* -ms-flex-wrap: wrap; IE10s */
-  /* flex-wrap: wrap; */
-  /* padding: 4px 4px; */
+
   width: 100%;
 }
 

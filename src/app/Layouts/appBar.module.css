@@ -7,8 +7,6 @@
   padding: 16px;
 }
 
-.appBar[data-theme='dark'] {
-}
 .appBar > div:first-of-type {
   display: none;
 }
@@ -20,11 +18,15 @@
   gap: 21px;
 }
 
+svg {
+  width: 40px;
+  height: 40px;
+  stroke: var(--black);
+}
+
 .appBar > div > img {
   width: 40px;
   height: 40px;
-  fill: red;
-  stroke: red;
 }
 
 @media only screen and (max-width: 1200px) {

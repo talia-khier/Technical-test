@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: #fff;
+  background-color: var(--white);
   box-shadow: 0px 4px 4px var(--shadow);
   /* width: 73px; */
   padding: 0 19px 19px;
@@ -22,9 +22,10 @@
   gap: 32px;
 }
 
-.sidebar > div > img {
+svg {
   width: 35px;
   height: 35px;
+  stroke: var(--black);
 }
 
 @media only screen and (max-width: 1200px) {

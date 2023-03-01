@@ -1,12 +1,14 @@
 .appBar {
   /* height: 73px; */
-  background-color: #fff;
+  background-color: var(--white);
   display: flex;
   justify-content: end;
   margin-left: 3px;
   padding: 16px;
 }
 
+.appBar[data-theme='dark'] {
+}
 .appBar > div:first-of-type {
   display: none;
 }
@@ -21,9 +23,11 @@
 .appBar > div > img {
   width: 40px;
   height: 40px;
+  fill: red;
+  stroke: red;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
   .appBar {
     justify-content: space-between;
   }

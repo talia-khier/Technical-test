@@ -1,8 +1,8 @@
 .wrapper {
   display: flex;
   gap: 19px;
-  background: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: var(--white);
+  box-shadow: 0px 4px 4px var(--shadow);
   border-radius: 24px;
   padding: 36px 30px;
 }
@@ -16,7 +16,7 @@ h3 {
   font-size: 36px;
   line-height: 49px;
 
-  color: #000000;
+  color: var(--black);
 }
 p {
   font-style: normal;
@@ -24,7 +24,7 @@ p {
   font-size: 24px;
   line-height: 33px;
 
-  color: #000000;
+  color: var(--black);
 }
 
 form {
@@ -40,7 +40,7 @@ form {
   gap: 30px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
   .wrapper {
     display: none;
   }

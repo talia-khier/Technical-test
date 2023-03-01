@@ -1,5 +1,5 @@
 .layout {
-  background-color: #f5f5f5;
+  background-color: var(--bg);
   display: flex;
   height: 100%;
   width: 100%;
@@ -22,7 +22,7 @@
   gap: 33px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) {
   .content {
     flex-direction: column-reverse;
   }
